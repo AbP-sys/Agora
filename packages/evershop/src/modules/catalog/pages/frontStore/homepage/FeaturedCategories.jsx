@@ -4,7 +4,7 @@ import './Featured.scss';
 
 export default function FeaturedCategories() {
   return (
-    <div className="mt-15">
+    <div className="mt-3">
       <div className="text-center">
             <img src="https://assets.myntassets.com/f_webp,w_980,c_limit,fl_progressive,dpr_2.0/assets/images/2023/8/4/e773974d-4748-48dd-9f93-d6b9808a70581691152509520-Rakshabandhan-Gifts-This-Way.png" alt="" />
           </div>

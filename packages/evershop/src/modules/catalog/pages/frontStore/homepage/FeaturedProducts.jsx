@@ -8,14 +8,12 @@ export default function FeaturedProducts({ collection }) {
     return null;
   }
   return (
-    <div className="pt-3">
       <div className="page-width">
-        <h3 className="mt-3 mb-3 text-center uppercase h5 tracking-widest">
+        <h1 className="mt-3 mb-3 text-center uppercase h1 tracking-widest">
           {collection.name}
-        </h3>
+        </h1>
         <ProductList products={collection.products.items} countPerRow={4} />
       </div>
-    </div>
   );
 }
 
@@ -60,7 +58,7 @@ export const layout = {
 
 export const query = `
   query query {
-    collection (code: "homepage") {
+    collection (code: "FLAT20") {
       collectionId
       name
       products (filters: [{key: "limit", operation: "=", value: "4"}]) {
