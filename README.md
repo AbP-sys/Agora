@@ -11,4 +11,4 @@ Agora is an e-commerce platform which offers a wide variety of product customiza
 Customers can view products based on categories and search parameters and add them to a cart to proceed for checkout.
 
 
-<img alt="admin_page" src="media/checkout_page.png"/>
+<img alt="admin_page" src="media/billing_page.png"/>
